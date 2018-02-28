@@ -27,13 +27,11 @@
     if (account) {
         //选择控制器
         [self.window switchWithControllerView];
-        
     }else{
         
     self.window.rootViewController = [[AuthorizeViewController alloc]init];
         
     }
-    // Override point for customization after application launch.
     return YES;
 }
 
